@@ -11,7 +11,6 @@
 ## 🖼 Screenshots
 
 ### 🔹 Main Menu
-![Gameplay1](./textures/ingame1.png)
 
 ### 🔹 Gameplay
 ![Gameplay2](./textures/ingame2.png)
