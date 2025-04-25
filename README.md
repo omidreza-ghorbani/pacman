@@ -1,6 +1,6 @@
 # 🟡 Pac-Man – Mini Game (C with Raylib)
 
-
+A simple Pac-Man game developed in C using the Raylib graphics library.
 
 ## 🎮 Features
 
