@@ -1,0 +1,23 @@
+"C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\A_H\Desktop\pacman\one_file -B C:\Users\A_H\Desktop\pacman\one_file\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.3.3/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+Error removing directory "C:/Users/A_H/Desktop/pacman/one_file/cmake-build-debug/_deps/raylib-src".
+CMake Error at cmake-build-debug/CMakeFiles/fc-tmp/raylib/raylib-gitclone.cmake:30 (message):
+  Failed to remove directory:
+  'C:/Users/A_H/Desktop/pacman/one_file/cmake-build-debug/_deps/raylib-src'
+Call Stack (most recent call first):
+  cmake-build-debug/CMakeFiles/fc-tmp/raylib/download.cmake:7 (include)
+  C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake:1753 (include)
+  C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake:1706 (__FetchContent_doStepDirect)
+  C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake:1607 (__FetchContent_populateDirect)
+  C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+  C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake:2145 (cmake_language)
+  C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+  CMakeLists.txt:21 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!
