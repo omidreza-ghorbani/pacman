@@ -6,7 +6,7 @@
 - Top 10 high scores display
 - Replay system (watch your last game)
 
-## 🖼 Screenshots
+##  🖼 Screenshots
 
 ### 🔹 Main Menu
   
