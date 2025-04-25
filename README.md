@@ -13,6 +13,7 @@
 ### 🔹 Main Menu
 
 ### 🔹 Gameplay
+![Gameplay1](./textures/ingame1.png)
 ![Gameplay2](./textures/ingame2.png)
 
 ## 🚀 How to Run
