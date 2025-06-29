@@ -1,0 +1,51 @@
+"C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\A_H\Desktop\nw -B C:\Users\A_H\Desktop\nw\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.3.3/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+Cloning into 'raylib-src'...
+remote: Enumerating objects: 48686, done.        
+remote: Counting objects: 100% (1/1), done.        
+remote: Total 48686 (delta 0), reused 0 (delta 0), pack-reused 48685 (from 1)        
+Receiving objects: 100% (48686/48686), 391.91 MiB | 2.87 MiB/s, done.
+Resolving deltas: 100% (35842/35842), done.
+HEAD is now at fec96137 Update Makefile comment to indicate arm64 as a supported Linux desktop platform (#2965)
+CMake Deprecation Warning at cmake-build-debug/_deps/raylib-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.3.3/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_HAS_THOSE_TOGGLES
+-- Performing Test COMPILER_HAS_THOSE_TOGGLES - Success
+-- Testing if -Werror=pointer-arith can be used -- compiles
+-- Testing if -Werror=implicit-function-declaration can be used -- compiles
+-- Testing if -fno-strict-aliasing can be used -- compiles
+-- Using raylib's GLFW
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Including Win32 support
+-- Looking for dinput.h
+-- Looking for dinput.h - found
+-- Looking for xinput.h
+-- Looking for xinput.h - found
+-- Audio Backend: miniaudio
+-- Building raylib static library
+-- Generated build type: Debug
+-- Compiling with the flags:
+--   PLATFORM=PLATFORM_DESKTOP
+--   GRAPHICS=GRAPHICS_API_OPENGL_33
+-- Configuring done (144.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/A_H/Desktop/nw/cmake-build-debug
